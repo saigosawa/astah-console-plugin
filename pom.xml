@@ -7,7 +7,7 @@
     <plugin.install>true</plugin.install>
     <astah.version>6.6</astah.version>
     <astah.edition>all</astah.edition>
-    <astah.depend.version>6.6-SNAPSHOT</astah.depend.version>
+    <astah.depend.version>6.7</astah.depend.version>
   </properties>
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.change_vision.astah.extension.plugin</groupId>
@@ -16,6 +16,7 @@
   <packaging>bundle</packaging>
   <name>%bundle.name</name>
   <description>%bundle.description</description>
+  
   <pluginRepositories>
     <pluginRepository>
       <id>local_astah_repository</id>
