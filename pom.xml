@@ -5,14 +5,14 @@
     <bundle.symbolicName>com.change_vision.astah.extension.plugin.console</bundle.symbolicName>
     <bundle.namespace>com.change_vision.astah.extension.plugin</bundle.namespace>
     <plugin.install>true</plugin.install>
-    <astah.version>6.6</astah.version>
+    <astah.version>1.0</astah.version>
     <astah.edition>all</astah.edition>
     <astah.depend.version>6.7</astah.depend.version>
   </properties>
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.change_vision.astah.extension.plugin</groupId>
   <artifactId>console</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <packaging>bundle</packaging>
   <name>%bundle.name</name>
   <description>%bundle.description</description>
