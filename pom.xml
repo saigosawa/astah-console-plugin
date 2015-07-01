@@ -16,7 +16,7 @@
   <packaging>bundle</packaging>
   <name>%bundle.name</name>
   <description>%bundle.description</description>
-  
+
   <pluginRepositories>
     <pluginRepository>
       <id>local_astah_repository</id>
@@ -33,18 +33,9 @@
   </pluginRepositories>
   <repositories>
     <repository>
-      <id>java.net</id>
-      <name>java.net Maven Repository</name>
-      <url>http://download.java.net/maven/2</url>
-      <releases>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
-    <repository>
-      <id>uk-central</id>
-      <url>http://uk.maven.org/maven2/</url>
+      <id>dev.change-vision.com-nexus</id>
+      <name>dev.change-vision.com Maven Repository</name>
+      <url>http://dev.change-vision.com/nexus/content/groups/public/</url>
     </repository>
   </repositories>
   <reporting>
@@ -231,13 +222,13 @@
         </plugin>
       </plugins>
     </pluginManagement>
-		<extensions>
-			<extension>
-		        <groupId>org.apache.maven.wagon</groupId>
-		        <artifactId>wagon-ssh-external</artifactId>
-		        <version>2.2</version>
-			</extension>
-		</extensions>
+    <extensions>
+      <extension>
+            <groupId>org.apache.maven.wagon</groupId>
+            <artifactId>wagon-ssh-external</artifactId>
+            <version>2.2</version>
+      </extension>
+    </extensions>
   </build>
   <dependencies>
     <dependency>
