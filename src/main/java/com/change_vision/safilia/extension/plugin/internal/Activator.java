@@ -1,4 +1,4 @@
-package com.change_vision.astah.extension.plugin.internal;
+package com.change_vision.safilia.extension.plugin.internal;
 
 
 import org.osgi.framework.BundleActivator;

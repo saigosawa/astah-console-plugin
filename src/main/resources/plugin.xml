@@ -2,8 +2,8 @@
 <plugin>
    <extension point="com.change_vision.astah.ui.view">
       <view
-          id="com.change_vision.astah.extension.plugin.internal.view.ConsoleView"
+          id="com.change_vision.safilia.extension.plugin.internal.view.ConsoleView"
           type="extraTab"
-          class="com.change_vision.astah.extension.plugin.internal.view.ConsoleView" />
+          class="com.change_vision.safilia.extension.plugin.internal.view.ConsoleView" />
    </extension>
 </plugin>

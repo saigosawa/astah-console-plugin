@@ -1,4 +1,4 @@
-package com.change_vision.astah.extension.plugin.internal.view;
+package com.change_vision.safilia.extension.plugin.internal.view;
 
 import java.awt.Color;
 import java.awt.Component;
