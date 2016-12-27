@@ -45,6 +45,17 @@
       <id>uk-central</id>
       <url>http://uk.maven.org/maven2/</url>
     </repository>
+	<repository>
+		<id>dev.change-vision.com-nexus</id>
+		<name>dev.change-vision.com Maven Repository</name>
+		<url>https://dev.change-vision.com:8443/nexus/content/groups/public/</url>
+		<releases>
+			<enabled>true</enabled>
+		</releases>
+		<snapshots>
+			<enabled>true</enabled>
+		</snapshots>
+		</repository>
   </repositories>
   <reporting>
     <plugins>
