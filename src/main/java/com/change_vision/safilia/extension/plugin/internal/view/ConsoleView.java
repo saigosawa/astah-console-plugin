@@ -15,8 +15,8 @@ import javax.swing.text.Document;
 import javax.swing.text.SimpleAttributeSet;
 import javax.swing.text.StyleConstants;
 
-import com.change_vision.jude.api.inf.ui.IPluginExtraTabView;
-import com.change_vision.jude.api.inf.ui.ISelectionListener;
+import com.change_vision.safilia.api.inf.ui.IPluginExtraTabView;
+import com.change_vision.safilia.api.inf.ui.ISelectionListener;
 
 @SuppressWarnings("serial")
 public class ConsoleView extends JPanel implements IPluginExtraTabView {
